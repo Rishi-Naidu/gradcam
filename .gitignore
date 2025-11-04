@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & large artifacts
+data/**
+!data/.gitkeep
+outputs/**
+!outputs/.gitkeep
+videos/**
+!videos/.gitkeep
+weights/**
+*.pth
+*.pt
+*.onnx
+*.mp4
+*.mkv
+*.avi
+*.zip
+
+# Notebooks + checkpoints
+*.ipynb_checkpoints
+*.ipynb
+
+# Logs
+logs/
+*.log
